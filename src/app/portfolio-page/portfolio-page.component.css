@@ -1,0 +1,15 @@
+.own-btn {
+  justify-content: space-evenly;
+  margin-bottom: 2em;
+}
+
+.own-btn button {
+  line-height: 2em;
+}
+.container {
+  margin-bottom: 5em;
+}
+
+.resize {
+  max-height: 1000px;
+}

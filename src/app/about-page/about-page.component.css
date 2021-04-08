@@ -1,0 +1,52 @@
+
+.aboutWrapper {
+    background-image: url("../../assets/img/hero/DSC_7052.jpg");
+    background-size: cover;
+    min-height: 100vh; /*so that the footer always stays on the bottom*/
+  
+    color: lightgray;
+    
+}
+
+.aboutInner {
+    padding: 2vw 10vw 3vw 30vw;
+}
+
+.quote {
+    margin-bottom: 3vw;
+}
+
+.people {
+    margin-top: 7vw;
+}
+
+h1, h5, p {
+    text-shadow: 2px 2px 4px black;
+}
+
+h5 {
+    font-size: 0.85em;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+/* @media screen and (max-width: 570px) {
+    .aboutInner {
+        padding-top: 5vw;
+        padding-left: 8vw;
+       
+        
+    }
+  } */
+  @media (max-width: 575.98px) {
+    .aboutInner{
+        margin: 0!important;
+        padding: 0!important; 
+        padding-top:5vh!important;
+        padding-left: 1vh!important;
+       
+    } 
+   
+}

@@ -1,0 +1,85 @@
+.container{
+    width: 600px;
+    padding-bottom: 60px;
+
+
+
+
+
+   }
+   p{
+       color: black;
+   }
+   
+   h5 ,h3{
+       color: black;
+     
+   }
+   .checked {
+       color: orange;
+       padding: 10px;
+      font-size: 20px;
+     }
+    
+img{
+
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+   
+}
+.rounded-circle{
+   width: 180px;
+ 
+
+} 
+.carousel-caption{
+padding: 20px!important;
+height: 96%;
+} 
+
+
+button {
+    filter: invert(1);
+    
+}
+
+ .ownStyle{
+     width: 80vw;
+    
+ }
+ 
+ @media (max-width: 575.98px) {
+     .container{
+         width: 80vw;
+     }
+     .mobileContainer{
+        height: 300px;
+       
+     }
+     .rounded-circle{
+        width: 80px;
+     } 
+    
+    span{
+        width: 30px;
+    }
+     p{
+         font-size: 12px;
+     }
+     h3{
+         font-size: 15px;
+     }
+      
+  }
+  
+    
+   
+    
+       
+    
+ 

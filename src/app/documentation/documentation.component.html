@@ -1,0 +1,97 @@
+<div class="container">
+<div class="d-flex align-items-start">
+    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Day 1</button>
+      <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Day 2</button>
+      <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Day 3</button>
+      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Day 4</button>
+    </div>
+    <div class="tab-content" id="v-pills-tabContent">
+      <!-- ----------Day 1------------ -->
+      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+        <figure class="figure">
+        <img src="assets/img/documentation/First_Interaction.PNG" class="figure-img img-fluid rounded" alt="...">
+        <p>First Interaction with the Team</p>
+      </figure>
+      <h2>First Zoom Meeting</h2>
+      
+      <ul class="list-group">
+        <li class="list-group-item">Deciding who is Leader and Presenter</li>
+        <li class="list-group-item">Which Project to choose</li>
+        <li class="list-group-item">What Technology we use</li>
+        <li class="list-group-item">Searching for Inspiration for a website</li>
+        <li class="list-group-item">Creating a Trello Overview</li>
+        <li class="list-group-item">Starting working on the Project</li>
+      </ul>
+      <figure class="figure">
+        <img src="assets/img/documentation/Trello.PNG" class="figure-img img-fluid rounded" alt="...">
+        <p>Trello Overview</p>
+      </figure>
+      <figure class="figure">
+        <img src="assets/img/documentation/Photography.png" class="figure-img img-fluid rounded" alt="...">
+        <p>Scetch how the components should look</p>
+      </figure>
+
+      <h2>Second Zoom Meeting in the Afternoon</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Talking about progress</li>
+        <li class="list-group-item">Discuss what should be changed and/or improved</li>
+        <li class="list-group-item">Scheduled the next days meeting in the morning</li>
+        
+      </ul>
+    </div>
+      <!-- ----------Day 2------------ -->
+      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"><figure class="figure">
+        <img src="assets/img/documentation/Second_Day.png" class="figure-img img-fluid rounded" alt="...">
+        <p>Everyones here, except Richard. He overslept.... 😜</p>
+      </figure>
+      <h2>Zoom Meeting in the morning</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Fixed some problems with the Landingpage</li>
+        <li class="list-group-item">Discuss what should be changed and/or improved</li>
+        <li class="list-group-item">What tasks should be made today</li>
+        <li class="list-group-item">Scheduled the next meeting in the afternoon</li>
+      </ul>
+      <h2>How we managed that the navbar and the header are not shown on the landing page</h2>
+      <figure class="figure">
+        <img src="assets/img/documentation/step1.png" class="figure-img img-fluid rounded" alt="...">
+        <p><b>Step 1:</b> created navbar.service.ts and header.service.ts with two functions for hide and show.</p>
+      </figure>
+      <figure class="figure">
+        <img src="assets/img/documentation/step2.png" class="figure-img img-fluid rounded" alt="...">
+        <p><b>Step 2:</b> import navbar.service.ts and header.service.ts in navbar.components.ts and header.component.ts</p>
+      </figure>
+      <figure class="figure">
+        <img src="assets/img/documentation/step3.png" class="figure-img img-fluid rounded" alt="...">
+        <p><b>Step 3:</b> created *ngIf in navbar.components.html nav-tag and header.component.html in header-tag</p>
+      </figure>
+      <figure class="figure">
+        <img src="assets/img/documentation/step4.png" class="figure-img img-fluid rounded" alt="...">
+        <p><b>Step 4:</b> import navbar.service.ts and header.service.ts in landing-page-componant.ts and call the funktions to <b>hide</b> the Navbar and the Header</p>
+      </figure>
+      <figure class="figure">
+        <img src="assets/img/documentation/step5.png" class="figure-img img-fluid rounded" alt="...">
+        <p><b>Step 5:</b> import navbar.service.ts and header.service.ts in all page-componant.ts without the landing-page and call the funktions to <b>show</b> the Navbar and the Header</p>
+      </figure>
+    </div>
+      <!-- ----------Day 3------------ -->
+      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"><h2>Zoom Meeting in the morning</h2>
+        <ul class="list-group">
+          <li class="list-group-item">Discuss what we could improve or implement</li>
+          <li class="list-group-item">Decided to Implement an Offers Page</li>
+          <li class="list-group-item">Tried to Implement an webcam/selfie page but got rid of it since the knowledge for backend is missing</li>
+          <li class="list-group-item">After Lunch we decided to take the rest of the day of and enjoy the sun</li>
+        </ul>
+      </div>
+      <!-- ----------Day 4------------ -->
+      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+        <h2>Zoom Meeting in the morning</h2>
+        <ul class="list-group">
+        <li class="list-group-item">Going over the site and looked for bugs</li>
+        <li class="list-group-item">Got rid of Bugs/Typos</li>
+        <li class="list-group-item">Finished Documentation</li>
+        
+      </ul></div>
+    </div>
+  </div>
+</div> 
