@@ -1,5 +1,12 @@
 # Photography
 
+This is the Front End Group Project at CodeFactory together with 3 other colleagues. We were supposed to create a photographer's website trough Angular. I really enjoyed to work in a group. We used Trello and Kanban mainly to organize the project.
+
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
 
 ## Development server
